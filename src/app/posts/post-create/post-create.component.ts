@@ -65,4 +65,11 @@ export class PostCreateComponent implements OnInit {
     this.form.reset();
   }
 
+  onImagePicked(event: Event) {
+
+    const file = (event.target as HTMLInputElement).files![0]
+
+  }
+
+
 }
