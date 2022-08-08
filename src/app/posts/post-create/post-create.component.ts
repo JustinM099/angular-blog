@@ -67,7 +67,7 @@ export class PostCreateComponent implements OnInit {
 
   onImagePicked(event: Event) {
 
-    const file = (event.target as HTMLInputElement).files![0]
+    const file = (event.target as HTMLInputElement).files![0];
 
   }
 
